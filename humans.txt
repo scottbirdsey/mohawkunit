@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Scott Birdsey -- Designer & developer -- scottbirdsey
 
 # THANKS
 
-    <name>
+    HTML5 Boilerplate
+    fripfrap.io
+    Awesome Players Offroad Motorcycle Club
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, Modernizr
