@@ -75,6 +75,9 @@ time {
   time .day {
     font-size: 38px;
     line-height: 0.8; }
+  time .year {
+    letter-spacing: 1px;
+    padding-left: 1px; }
 
 .movie {
   position: relative;
