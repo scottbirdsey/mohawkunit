@@ -58,6 +58,8 @@ article
   text-align: left
   margin: 0 auto 6rem
   padding: 0 1rem 4rem
+  @include breakpoint(500)
+    padding: 0 1rem
   h1
     font-family: "effra",sans-serif
     font-size: 2rem
@@ -66,8 +68,9 @@ article
     @include breakpoint(500)
       font-size: 1.5rem
       line-height: 1.4
-  @include breakpoint(500)
-    padding: 0 1rem
+  h2
+    @include breakpoint(500)
+      font-size: 1.2rem
 
 .meta
   border-bottom: 1px solid rgb(174, 213, 255)

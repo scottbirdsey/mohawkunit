@@ -49,6 +49,9 @@ article {
   text-align: left;
   margin: 0 auto 6rem;
   padding: 0 1rem 4rem; }
+  @media (max-width: 500px) {
+    article {
+      padding: 0 1rem; } }
   article h1 {
     font-family: "effra", sans-serif;
     font-size: 2rem;
@@ -59,8 +62,8 @@ article {
         font-size: 1.5rem;
         line-height: 1.4; } }
   @media (max-width: 500px) {
-    article {
-      padding: 0 1rem; } }
+    article h2 {
+      font-size: 1.2rem; } }
 
 .meta {
   border-bottom: 1px solid #aed5ff;
