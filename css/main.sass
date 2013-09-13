@@ -145,4 +145,12 @@ footer
   text-align: center
   background-color: #162029
   width: 100%
-  padding: 4rem 0
+  padding: 4rem 1rem
+  box-sizing: border-box
+  p
+    @include breakpoint(500)
+      font-size: 1rem
+  br
+    display: none
+    @include breakpoint(500)
+      display: inline
