@@ -57,7 +57,6 @@ article {
     @media (max-width: 500px) {
       article h1 {
         font-size: 1.5rem;
-        padding-top: 3px;
         line-height: 1.4; } }
   @media (max-width: 500px) {
     article {
@@ -73,19 +72,39 @@ time {
   float: left;
   padding-right: 1.4rem;
   padding-top: 9px; }
+  @media (max-width: 600px) {
+    time {
+      display: block;
+      float: none; } }
   time span {
     display: block;
     text-transform: uppercase;
     font-weight: bold; }
+    @media (max-width: 600px) {
+      time span {
+        display: inline; } }
   time .month {
     font-size: 18px;
     line-height: 1; }
+    @media (max-width: 600px) {
+      time .month {
+        font-size: 14px; } }
   time .day {
     font-size: 38px;
     line-height: 0.8; }
+    @media (max-width: 600px) {
+      time .day {
+        font-size: 14px;
+        line-height: 1; }
+        time .day:after {
+          content: ", "; } }
   time .year {
     letter-spacing: 1px;
     padding-left: 1px; }
+    @media (max-width: 600px) {
+      time .year {
+        font-size: 14px;
+        letter-spacing: 0; } }
 
 .movie {
   position: relative;
