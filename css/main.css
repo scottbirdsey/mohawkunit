@@ -54,6 +54,14 @@ article {
     font-size: 2rem;
     margin: 0;
     line-height: 42px; }
+    @media (max-width: 500px) {
+      article h1 {
+        font-size: 1.5rem;
+        padding-top: 3px;
+        line-height: 1.4; } }
+  @media (max-width: 500px) {
+    article {
+      padding: 0 1rem; } }
 
 .meta {
   border-bottom: 1px solid #aed5ff;

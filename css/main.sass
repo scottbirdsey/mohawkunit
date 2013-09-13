@@ -1,3 +1,11 @@
+@mixin breakpoint($point)
+  @if $point == 600
+    @media (max-width: 600px)
+      @content
+  @else if $point == 500
+    @media (max-width: 500px)
+      @content
+
 html
   background-color: #1F2F41
   color: #FCFCAF
@@ -55,6 +63,12 @@ article
     font-size: 2rem
     margin: 0
     line-height: 42px
+    @include breakpoint(500)
+      font-size: 1.5rem
+      padding-top: 3px
+      line-height: 1.4
+  @include breakpoint(500)
+    padding: 0 1rem
 
 .meta
   border-bottom: 1px solid rgb(174, 213, 255)
