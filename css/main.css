@@ -94,7 +94,8 @@ time {
         font-size: 14px; } }
   time .day {
     font-size: 38px;
-    line-height: 0.8; }
+    line-height: 0.8;
+    text-align: center; }
     @media (max-width: 600px) {
       time .day {
         font-size: 14px;
